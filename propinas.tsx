@@ -1,14 +1,5 @@
 import React, { useState } from 'react';
-import {
-  StyleSheet,
-  Text,
-  View,
-  TextInput,
-  Pressable,
-  FlatList,
-  Alert,
-  ScrollView,
-} from 'react-native';
+import {StyleSheet, Text, View, TextInput, Pressable, FlatList, Alert, ScrollView,} from 'react-native';
 
 const Propinas = () => {
   const [monto, setMonto] = useState<string>('');
